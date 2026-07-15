@@ -675,9 +675,8 @@ I can also generate new scripts for tasks I haven't seen before!
         """Record from the microphone, transcribe, and process as a normal command."""
         if not self.voice_in or not self.voice_in.is_available():
             self.cli.display_error(
-                "Voice input is not available.\n"
-                "Make sure you launched V.E.R.A. with --voice and that "
-                "faster-whisper + sounddevice are installed."
+                "Voice input is currently disabled.\n"
+                "Type 'toggle_voice' to turn it on! (Requires faster-whisper and sounddevice)"
             )
             return
 
