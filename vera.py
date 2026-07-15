@@ -154,6 +154,9 @@ class VERA:
             api_key = mistral_config.get("api_key", "")
             if not api_key:
                 api_key = self._prompt_for_mistral_key()
+                if api_key == "__OLLAMA__":
+                    # config was updated, recursively initialize with new provider
+                    return self._init_llm()
                 if not api_key:
                     return False   # user declined / left blank
 
@@ -220,11 +223,21 @@ class VERA:
             ).strip()
 
             if not api_key:
-                self.cli.console.print(
-                    "\n[yellow]No key entered. Switching to Ollama...[/yellow]\n"
-                    "  Run: [bold cyan]python vera.py --provider ollama_local[/bold cyan]\n"
-                )
-                return ""
+                self.cli.console.print("\n[yellow]No key entered. Switching to Ollama locally...[/yellow]")
+                try:
+                    config_path = self.project_root / "config.yaml"
+                    raw = config_path.read_text(encoding="utf-8")
+                    updated = re.sub(
+                        r'([ \t]*provider:\s*)["\']?mistral_api["\']?',
+                        r'\g<1>"ollama_local"',
+                        raw,
+                        count=1,
+                    )
+                    config_path.write_text(updated, encoding="utf-8")
+                    self.config["llm"]["provider"] = "ollama_local"
+                except Exception as e:
+                    self.logger.error(f"Failed to switch provider in config: {e}")
+                return "__OLLAMA__"
 
             # Basic sanity check — Mistral keys have no spaces and are reasonably long
             if " " in api_key or len(api_key) < 16:
