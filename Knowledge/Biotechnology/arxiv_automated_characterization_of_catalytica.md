@@ -1,0 +1,9 @@
+# Automated Characterization of Catalytically Active Inclusion Body Production in Biotechnological Screening Systems
+
+**Authors:** Karina Ruzaeva, Kira Küsters, Wolfgang Wiechert, Benjamin Berkels, Marco Oldiges
+**Source:** http://arxiv.org/abs/2209.15584v1
+
+## Abstract
+
+We here propose an automated pipeline for the microscopy image-based characterization of catalytically active inclusion bodies (CatIBs), which includes a fully automatic experimental high-throughput workflow combined with a hybrid approach for multi-object microbial cell segmentation. For automated microscopy, a CatIB producer strain was cultivated in a microbioreactor from which samples were injected into a flow chamber. The flow chamber was fixed under a microscope and an integrated camera took a series of images per sample. To explore heterogeneity of CatIB development during the cultivation and track the size and quantity of CatIBs over time, a hybrid image processing pipeline approach was developed, which combines an ML-based detection of in-focus cells with model-based segmentation. The experimental setup in combination with an automated image analysis unlocks high-throughput screening of CatIB production, saving time and resources.
+  Biotechnological relevance - CatIBs have wide application in synthetic chemistry and biocatalysis, but also could have future biomedical applications such as therapeutics. The proposed hybrid automatic image processing pipeline can be adjusted to treat comparable biological microorganisms, where fully data-driven ML-based segmentation approaches are not feasible due to the lack of training data. Our work is the first step towards image-based bioprocess control.

@@ -1,0 +1,58 @@
+# V.E.R.A. - Virtual Entity for Real-time Assistance
+# Configuration File — TEMPLATE
+# Copy this file to config.yaml and fill in your settings.
+# NEVER commit config.yaml to version control — it contains your API key!
+
+# ─── LLM Settings ────────────────────────────────────────────────────────────
+llm:
+  # Choose: "mistral_api" or "ollama_local"
+  provider: "mistral_api"
+
+  # Mistral API settings (required if provider is "mistral_api")
+  # Get a free key at: https://console.mistral.ai/
+  mistral:
+    api_key: ""   # Leave empty — V.E.R.A. will ask you on first run
+    model: "mistral-large-latest"
+    temperature: 0.7
+    max_tokens: 4096
+
+  # Ollama settings (required if provider is "ollama_local")
+  ollama:
+    model: "mistral"
+    base_url: "http://localhost:11434"
+    temperature: 0.7
+
+# ─── Voice Settings ──────────────────────────────────────────────────────────
+voice:
+  enabled: false
+
+  stt:
+    engine: "faster_whisper"  # "faster_whisper"
+    model_size: "base"        # tiny, base, small, medium, large-v3
+    language: "en"
+
+  tts:
+    engine: "edge_tts"        # "edge_tts" or "pyttsx3"
+    voice: "en-US-JennyNeural"
+    rate: "+0%"
+    volume: "+0%"
+
+  listen_duration: 7          # seconds
+
+# ─── Interface Settings ──────────────────────────────────────────────────────
+interface:
+  theme: "dark"               # "dark" or "light"
+  show_thinking: true
+  max_history: 50
+
+# ─── Safety Settings ─────────────────────────────────────────────────────────
+safety:
+  confirm_before_exec: false
+  blocked_commands: []
+  log_all_actions: true
+
+# ─── Paths ────────────────────────────────────────────────────────────────────
+paths:
+  scripts_dir: "scripts"
+  custom_scripts_dir: "scripts/custom"
+  logs_dir: "logs"

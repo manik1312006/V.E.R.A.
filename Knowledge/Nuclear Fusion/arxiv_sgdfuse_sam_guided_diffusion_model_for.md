@@ -1,0 +1,8 @@
+# SGDFuse: SAM-Guided Diffusion Model for High-Fidelity Infrared and Visible Image Fusion
+
+**Authors:** Xiaoyang Zhang, jinjiang Li, Guodong Fan, Yakun Ju, Linwei Fan
+**Source:** http://arxiv.org/abs/2508.05264v6
+
+## Abstract
+
+Infrared and visible image fusion (IVIF) is essential for integrating thermal saliency with textural details to support downstream perception. However, most existing approaches suffer from "semantic blindness," leading to the erroneous suppression of thermal targets and the introduction of visual artifacts. To address this, we propose SAM-Guided Diffusion Fusion Network (SGDFuse), a novel Semantic-Guided Generation (SGG) framework that reframes IVIF as a semantically-steered generative task rather than simplistic pixel mapping. Our method uniquely couples high-level semantic priors from the Segment Anything Model (SAM) with the high-fidelity generative power of a conditional diffusion model. We employ a deliberate two-stage strategy to decouple multimodal alignment from iterative refinement: Stage I establishes a robust structural foundation via preliminary fusion, while Stage II utilizes dual-modality semantic masks as spatial anchors to guide the diffusion process toward a semantically coherent, high-fidelity reconstruction. Comprehensive experiments demonstrate that SGDFuse not only delivers state-of-the-art image quality but also enhances downstream task performance, confirming its effectiveness as a new Methodological Framework for semantically aware image fusion. The code is available at https://github.com/boshizhang123/SGDFuse.

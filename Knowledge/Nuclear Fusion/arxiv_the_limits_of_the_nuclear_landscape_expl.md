@@ -1,0 +1,8 @@
+# The limits of the nuclear landscape explored by the relativistic continuum Hatree-Bogoliubov theory
+
+**Authors:** X. W. Xia, Y. Lim, P. W. Zhao, H. Z. Liang, X. Y. Qu
+**Source:** http://arxiv.org/abs/1704.08906v2
+
+## Abstract
+
+The ground-state properties of nuclei with 8 $\le$ Z $\le$ 120 from the proton drip line to the neutron drip line have been investigated using the relativistic continuum Hartree-Bogoliubov (RCHB) theory with the relativistic density functional PC-PK1. With the effects of the continuum included, there are totally 9035 nuclei predicted to be bound, which largely extends the existing nuclear landscapes predicted with other methods. The calculated binding energies, separation energies, neutron and proton Fermi surfaces, root-mean-square (rms) radii of neutron, proton, matter, and charge distributions, ground-state spins and parities are tabulated. The extension of the nuclear landscape obtained with RCHB is discussed in detail, in particular for the neutron-rich side, in comparison with the relativistic mean field calculations without pairing correlations and also other predicted landscapes. It is found that the coupling between the bound states and the continuum due to the pairing correlations plays an essential role in extending the nuclear landscape. The systematics of the separation energies, radii, densities, potentials and pairing energies of the RCHB calculations are also discussed. In addition, the alpha-decay energies and proton emitters based on the RCHB calculations are investigated.

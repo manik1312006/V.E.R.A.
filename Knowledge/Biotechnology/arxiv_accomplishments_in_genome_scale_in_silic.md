@@ -1,0 +1,8 @@
+# Accomplishments in Genome-Scale In Silico Modeling for Industrial and Medical Biotechnology
+
+**Authors:** Caroline B. Milne, Pan-Jun Kim, James A. Eddy, Nathan D. Price
+**Source:** http://arxiv.org/abs/0912.2955v1
+
+## Abstract
+
+Driven by advancements in high-throughput biological technologies and the growing number of sequenced genomes, the construction of in silico models at the genome scale has provided powerful tools to investigate a vast array of biological systems and applications. Here, we review comprehensively the uses of such models in industrial and medical biotechnology, including biofuel generation, food production, and drug development. While the use of in silico models is still in its early stages for delivering to industry, significant initial successes have been achieved. For the cases presented here, genome-scale models predict engineering strategies to enhance properties of interest in an organism or to inhibit harmful mechanisms of pathogens. Going forward, genome-scale in silico models promise to extend their application and analysis scope to become a transformative tool in biotechnology.

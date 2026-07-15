@@ -1,0 +1,8 @@
+# Skyeye Team at MBZIRC 2020: A team of aerial and ground robots for GPS-denied autonomous fire extinguishing in an urban building scenario
+
+**Authors:** Simon Martinez-Rozas, Rafael Rey, David Alejo, Domingo Acedo, Jose Antonio Cobano
+**Source:** http://arxiv.org/abs/2104.01834v2
+
+## Abstract
+
+The paper presents a framework for fire extinguishing in an urban scenario by a team of aerial and ground robots. The system was developed to address Challenge 3 of the 2020Mohamed Bin Zayed International Robotics Challenge (MBZIRC). The challenge required to autonomously detect, locate and extinguish fires on different floors of a building, as well as in its surroundings. The multi-robot system developed consists of a heterogeneous robot team of up to three Unmanned Aerial Vehicles (UAV) and one Unmanned Ground Vehicle (UGV). We describe the main hardware and software components for UAV and UGVplatforms and also present the main algorithmic components of the system: a 3D LIDAR-based mapping and localization module able to work in GPS-denied scenarios; a global planner and a fast local re-planning system for robot navigation; infrared-based perception and robot actuation control for fire extinguishing; and a mission executive and coordination module based on Behavior Trees. The paper finally describes the results obtained during the competition, where the system worked fully autonomously and scored in all the trials performed. The presented system ended in 7th position out of 20 teams in the Challenge3 competition and in 5th position (out of 17 teams) in the Challenge 3 entry to the Grand Finale (Grand Challenge) of MBZIRC 2020 competition.

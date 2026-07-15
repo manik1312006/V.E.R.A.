@@ -1,0 +1,8 @@
+# Nuclear Reactions in Evolving Stars
+
+**Authors:** Friedrich-Karl Thielemann, Thomas Rauscher
+**Source:** http://arxiv.org/abs/2307.14391v1
+
+## Abstract
+
+This chapter will go through the important nuclear reactions in stellar evolution and explosions, passing through the individual stellar burning stages and also explosive burning conditions. To follow the changes in the composition of nuclear abundances requires the knowledge of the relevant nuclear reaction rates. For light nuclei (entering in early stellar burning stages) the resonance density is generally quite low and the reactions are determined by individual resonances, which are best obtained from experiments. For intermediate mass and heavy nuclei the level density is typically sufficient to apply statistical model approaches. For this reason, while we discuss all burning stages and explosive burning, focusing on the reactions of importance, we will for light nuclei refer to the chapters by M. Wiescher, deBoer & Reifarth (Experimental Nuclear Astrophysics) and P. Descouvement (Theoretical Studies of Low-Energy Nuclear Reactions), which display many examples, experimental methods utilized, and theoretical approaches how to predict nuclear reaction rates for light nuclei. For nuclei with sufficiently high level densities we discuss statistical model methods used in present predictions of nuclear reaction cross sections and thermonuclear rates across the nuclear chart, including also the application to nuclei far from stability and fission modes.

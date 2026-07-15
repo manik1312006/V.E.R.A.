@@ -1,0 +1,8 @@
+# Sensors for Mobile Robots
+
+**Authors:** Henrik Andreasson, Giorgio Grisetti, Todor Stoyanov, Alberto Pretto
+**Source:** http://arxiv.org/abs/2206.03223v3
+
+## Abstract
+
+A sensor is a device that converts a physical parameter or an environmental characteristic (e.g., temperature, distance, speed, etc.) into a signal that can be digitally measured and processed to perform specific tasks. Mobile robots need sensors to measure properties of their environment, thus allowing for safe navigation, complex perception and corresponding actions, and effective interactions with other agents that populate it. Sensors used by mobile robots range from simple tactile sensors, such as bumpers, to complex vision-based sensors such as structured light RGB-D cameras. All of them provide a digital output (e.g., a string, a set of values, a matrix, etc.) that can be processed by the robot's computer. Such output is typically obtained by discretizing one or more analog electrical signals by using an Analog to Digital Converter (ADC) included in the sensor. In this chapter we present the most common sensors used in mobile robotics, providing an introduction to their taxonomy, basic features, and specifications. The description of the functionalities and the types of applications follows a bottom-up approach: the basic principles and components on which the sensors are based are presented before describing real-world sensors, which are generally based on multiple technologies and basic devices.

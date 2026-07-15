@@ -1,0 +1,31 @@
+# ─── Secrets & User Data ──────────────────────────────────────────────────────
+config.yaml              # Contains your API key — NEVER commit this!
+.env
+
+# ─── Generated Knowledge Base ─────────────────────────────────────────────────
+Knowledge/               # Auto-generated research files (can be GBs in size)
+
+# ─── User-Generated Scripts ───────────────────────────────────────────────────
+scripts/custom/          # Scripts V.E.R.A. created for your specific machine
+
+# ─── Python Cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── OS & Editor Files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.bat~ 
+$batteryReportPath
+battery-report.html

@@ -1,0 +1,8 @@
+# U-Fair: Uncertainty-based Multimodal Multitask Learning for Fairer Depression Detection
+
+**Authors:** Jiaee Cheong, Aditya Bangar, Sinan Kalkan, Hatice Gunes
+**Source:** http://arxiv.org/abs/2501.09687v1
+
+## Abstract
+
+Machine learning bias in mental health is becoming an increasingly pertinent challenge. Despite promising efforts indicating that multitask approaches often work better than unitask approaches, there is minimal work investigating the impact of multitask learning on performance and fairness in depression detection nor leveraged it to achieve fairer prediction outcomes. In this work, we undertake a systematic investigation of using a multitask approach to improve performance and fairness for depression detection. We propose a novel gender-based task-reweighting method using uncertainty grounded in how the PHQ-8 questionnaire is structured. Our results indicate that, although a multitask approach improves performance and fairness compared to a unitask approach, the results are not always consistent and we see evidence of negative transfer and a reduction in the Pareto frontier, which is concerning given the high-stake healthcare setting. Our proposed approach of gender-based reweighting with uncertainty improves performance and fairness and alleviates both challenges to a certain extent. Our findings on each PHQ-8 subitem task difficulty are also in agreement with the largest study conducted on the PHQ-8 subitem discrimination capacity, thus providing the very first tangible evidence linking ML findings with large-scale empirical population studies conducted on the PHQ-8.

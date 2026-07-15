@@ -1,0 +1,8 @@
+# Evaluating Machine Learning Models for Supernova Gravitational Wave Signal Classification
+
+**Authors:** Y. Sultan Abylkairov, Matthew C. Edwards, Daniil Orel, Ayan Mitra, Bekdaulet Shukirgaliyev
+**Source:** http://arxiv.org/abs/2409.14508v2
+
+## Abstract
+
+We investigate the potential of using gravitational wave (GW) signals from rotating core-collapse supernovae to probe the equation of state (EOS) of nuclear matter. By generating GW signals from simulations with various EOSs, we train machine learning models to classify them and evaluate their performance. Our study builds on previous work by examining how different machine learning models, parameters, and data preprocessing techniques impact classification accuracy. We test convolutional and recurrent neural networks, as well as six classical algorithms: random forest, support vector machines, naïve Bayes, logistic regression, $k$-nearest neighbors, and eXtreme gradient boosting. All models, except naïve Bayes, achieve over 90 per cent accuracy on our dataset. Additionally, we assess the impact of approximating the GW signal using the general relativistic effective potential (GREP) on EOS classification. We find that models trained on GREP data exhibit low classification accuracy. However, normalizing time by the peak signal frequency, which partially compensates for the absence of the time dilation effect in GREP, leads to a notable improvement in accuracy. Despite this, the accuracy does not exceed 70 per cent, suggesting that GREP lacks the precision necessary for EOS classification. Finally, our study has several limitations, including the omission of detector noise and the focus on a single progenitor mass model, which will be addressed in future works.

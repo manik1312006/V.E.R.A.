@@ -1,0 +1,8 @@
+# Coupled-channels calculations for nuclear reactions: from exotic nuclei to superheavy elements
+
+**Authors:** K. Hagino, K. Ogata, A. M. Moro
+**Source:** http://arxiv.org/abs/2201.09512v2
+
+## Abstract
+
+Atomic nuclei are composite systems, and they may be dynamically excited during nuclear reactions. Such excitations are not only relevant to inelastic scattering but they also affect other reaction processes such as elastic scattering and fusion. The coupled-channels approach is a framework which can describe these reaction processes in a unified manner. It expands the total wave function of the system in terms of the ground and excited states of the colliding nuclei, and solves the coupled Shrödinger equations to obtain the $S$-matrix, from which several cross sections can be constructed. This approach has been a standard tool to analyze experimental data for nuclear reactions. In this paper, we review the present status and the recent developments of the coupled-channels approach. This includes the microscopic coupled-channels method and its application to cluster physics, the continuum discretized coupled-channels (CDCC) method for breakup reactions, the semi-microscopic approach to heavy-ion subbarrier fusion reactions, the channel coupling effects on nuclear astrophysics and syntheses of superheavy elements, and inclusive breakup and incomplete fusion reactions of weakly-bound nuclei.

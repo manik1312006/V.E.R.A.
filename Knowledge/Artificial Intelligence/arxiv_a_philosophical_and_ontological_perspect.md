@@ -1,0 +1,8 @@
+# A philosophical and ontological perspective on Artificial General Intelligence and the Metaverse
+
+**Authors:** Martin Schmalzried
+**Source:** http://arxiv.org/abs/2402.06660v4
+
+## Abstract
+
+This paper leverages various philosophical and ontological frameworks to explore the concept of embodied artificial general intelligence (AGI), its relationship to human consciousness, and the key role of the metaverse in facilitating this relationship. Several theoretical frameworks underpin this exploration, such as embodied cognition, Michael Levin's computational boundary of a "Self," and Donald D. Hoffman's Interface Theory of Perception, which lead to considering human perceived outer reality as a symbolic representation of alternate inner states of being, and where AGI could embody a different form of consciousness with a larger computational boundary. The paper further discusses the necessary architecture for the emergence of an embodied AGI, how to calibrate an AGI's symbolic interface, and the key role played by the Metaverse, decentralized systems and open-source blockchain technology. The paper concludes by emphasizing the importance of achieving a certain degree of harmony in human relations and recognizing the interconnectedness of humanity at a global level, as key prerequisites for the emergence of a stable embodied AGI.

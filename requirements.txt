@@ -1,0 +1,35 @@
+# V.E.R.A. - Virtual Entity for Real-time Assistance
+# Core dependencies
+
+# LLM Providers
+mistralai>=1.0.0
+ollama>=0.1.0
+
+# CLI & Terminal UI
+typer>=0.12.0
+rich>=13.0.0
+
+# Voice (optional — install separately if needed)
+# faster-whisper>=1.0.0
+# edge-tts>=6.1.0
+# pyttsx3>=2.90
+
+# Browser Automation
+playwright>=1.40.0
+
+# Desktop Automation
+pynput>=1.7.6
+pyautogui>=0.9.54
+
+# Configuration
+pyyaml>=6.0
+
+# Interactive terminal input (arrow-key navigation for model selection)
+readchar>=4.0.0
+
+# Utilities
+psutil>=5.9.0
+
+# Web Scraping & Research
+beautifulsoup4>=4.12.0
+requests>=2.31.0

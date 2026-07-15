@@ -1,0 +1,8 @@
+# The Nuclear Symmetry Energy
+
+**Authors:** M. Baldo, G. F. Burgio
+**Source:** http://arxiv.org/abs/1606.08838v1
+
+## Abstract
+
+The nuclear symmetry energy characterizes the variation of the binding energy as the neutron to proton ratio of a nuclear system is varied. This is one of the most important features of nuclear physics in general, since it is just related to the two component nature of the nuclear systems. As such it is one of the most relevant physical parameters that affect the physics of many phenomena and nuclear processes. This review paper presents a survey of the role and relevance of the nuclear symmetry energy in different fields of research and of the accuracy of its determination from the phenomenology and from the microscopic many-body theory. In recent years, a great interest was devoted not only to the Nuclear Matter symmetry energy at saturation density but also to its whole density dependence, which is an essential ingredient for our understanding of many phenomena. We analyze the nuclear symmetry energy in different realms of nuclear physics and astrophysics. In particular we consider the nuclear symmetry energy in relation to nuclear structure, astrophysics of Neutron Stars and supernovae, and heavy ion collision experiments, trying to elucidate the connections of these different fields on the basis of the symmetry energy peculiarities. The interplay between experimental and observational data and theoretical developments is stressed. The expected future developments and improvements are schematically addressed, together with most demanded experimental and theoretical advances for the next few years.

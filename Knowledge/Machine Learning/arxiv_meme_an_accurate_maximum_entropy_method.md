@@ -1,0 +1,8 @@
+# MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning
+
+**Authors:** Diego Granziol, Binxin Ru, Stefan Zohren, Xiaowen Doing, Michael Osborne
+**Source:** http://arxiv.org/abs/1906.01101v1
+
+## Abstract
+
+Efficient approximation lies at the heart of large-scale machine learning problems. In this paper, we propose a novel, robust maximum entropy algorithm, which is capable of dealing with hundreds of moments and allows for computationally efficient approximations. We showcase the usefulness of the proposed method, its equivalence to constrained Bayesian variational inference and demonstrate its superiority over existing approaches in two applications, namely, fast log determinant estimation and information-theoretic Bayesian optimisation.

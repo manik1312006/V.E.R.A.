@@ -1,0 +1,8 @@
+# Biotechnology and the lifetime of technical civilizations
+
+**Authors:** John G. Sotos
+**Source:** http://arxiv.org/abs/1709.01149v2
+
+## Abstract
+
+The number of people able to end Earth's technical civilization has heretofore been small. Emerging dual-use technologies, such as biotechnology, may give similar power to thousands or millions of individuals. To quantitatively investigate the ramifications of such a marked shift on the survival of both terrestrial and extraterrestrial technical civilizations, this paper presents a two-parameter model for civilizational lifespans, i.e. the quantity $L$ in Drake's equation for the number of communicating extraterrestrial civilizations. One parameter characterizes the population lethality of a civilization's biotechnology and the other characterizes the civilization's psychosociology. $L$ is demonstrated to be less than the inverse of the product of these two parameters. Using empiric data from Pubmed to inform the biotechnology parameter, the model predicts human civilization's median survival time as decades to centuries, even with optimistic psychosociological parameter values, thereby positioning biotechnology as a proximate threat to human civilization. For an ensemble of civilizations having some median calculated survival time, the model predicts that, after 80 times that duration, only one in $10^{24}$ civilizations will survive -- a tempo and degree of winnowing compatible with Hanson's "Great Filter." Thus, assuming that civilizations universally develop advanced biotechnology, before they become vigorous interstellar colonizers, the model provides a resolution to the Fermi paradox.
