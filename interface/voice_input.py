@@ -159,7 +159,9 @@ class VoiceInput:
                         # VAD: Check if max amplitude exceeds a threshold (e.g. 0.05)
                         volume = np.max(np.abs(data))
                         
-                        if volume > 0.05:
+                        if volume > 0.01:
+                            if not is_speaking:
+                                logger.debug(f"Speech detected (vol: {volume:.4f})...")
                             is_speaking = True
                             silence_timer = 0.0
                         
