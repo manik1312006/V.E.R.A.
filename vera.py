@@ -432,6 +432,34 @@ class VERA:
             self.cli.display_info("Conversation history cleared.")
             return
 
+        if user_input.lower().strip() == "switch":
+            current = self.config.get("llm", {}).get("provider", "mistral_api")
+            new_provider = "ollama_local" if current == "mistral_api" else "mistral_api"
+            
+            # Update config file permanently
+            try:
+                import re
+                config_path = self.project_root / "config.yaml"
+                raw = config_path.read_text(encoding="utf-8")
+                updated = re.sub(
+                    r'([ \t]*provider:\s*)["\']?' + current + r'["\']?',
+                    r'\g<1>"' + new_provider + '"',
+                    raw,
+                    count=1,
+                )
+                config_path.write_text(updated, encoding="utf-8")
+                self.config["llm"]["provider"] = new_provider
+                
+                # Re-initialize the LLM
+                self.cli.display_status(f"Switching to {new_provider}...")
+                if self._init_llm():
+                    self.cli.display_info(f"Successfully switched to {new_provider}!")
+                else:
+                    self.cli.display_error("Failed to initialize new provider. Restart V.E.R.A.")
+            except Exception as e:
+                self.cli.display_error(f"Failed to switch provider: {e}")
+            return
+
         # Voice input trigger — type 'v', 'voice', or '/voice' to speak
         if user_input.lower().strip() in ("v", "voice", "/voice"):
             self._handle_voice_input()
@@ -559,6 +587,7 @@ class VERA:
 - `history` — Show conversation history
 - `clear` — Clear the terminal
 - `reset` — Clear conversation history
+- `switch` — Toggle between Mistral API and Ollama Local
 {voice_line}- `exit` / `quit` — Exit V.E.R.A.
 
 **How to use:**
