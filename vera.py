@@ -460,7 +460,40 @@ class VERA:
                 self.cli.display_error(f"Failed to switch provider: {e}")
             return
 
-        # Voice input trigger — type 'v', 'voice', or '/voice' to speak
+        if user_input.lower().strip() == "toggle_voice":
+            current_voice = self.config.get("voice", {}).get("enabled", False)
+            new_voice = not current_voice
+            
+            # Update config file permanently
+            try:
+                import re
+                config_path = self.project_root / "config.yaml"
+                raw = config_path.read_text(encoding="utf-8")
+                
+                # Replace true/false for voice enabled
+                if current_voice:
+                    updated = re.sub(r'([ \t]*enabled:\s*)true', r'\g<1>false', raw, flags=re.IGNORECASE, count=1)
+                else:
+                    updated = re.sub(r'([ \t]*enabled:\s*)false', r'\g<1>true', raw, flags=re.IGNORECASE, count=1)
+                
+                config_path.write_text(updated, encoding="utf-8")
+                if "voice" not in self.config:
+                    self.config["voice"] = {}
+                self.config["voice"]["enabled"] = new_voice
+                
+                if new_voice:
+                    self.cli.display_status("Initializing voice modules (this might take a moment)...")
+                    self._init_voice()
+                    self.cli.display_info("Voice is now ENABLED! Type 'v' to speak.")
+                else:
+                    if self.voice_out:
+                        self.voice_out.cleanup()
+                    self.voice_in = None
+                    self.voice_out = None
+                    self.cli.display_info("Voice is now DISABLED.")
+            except Exception as e:
+                self.cli.display_error(f"Failed to toggle voice: {e}")
+            return
         if user_input.lower().strip() in ("v", "voice", "/voice"):
             self._handle_voice_input()
             return
@@ -588,6 +621,7 @@ class VERA:
 - `clear` — Clear the terminal
 - `reset` — Clear conversation history
 - `switch` — Toggle between Mistral API and Ollama Local
+- `toggle_voice` — Turn voice features on or off
 {voice_line}- `exit` / `quit` — Exit V.E.R.A.
 
 **How to use:**
