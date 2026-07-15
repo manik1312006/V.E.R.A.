@@ -372,6 +372,7 @@ class VERA:
         voice_status = []
         if self.voice_in.is_available():
             voice_status.append("Speech-to-Text ✓")
+            self.voice_in.start_background_listening(self.process_input)
         if self.voice_out.is_available():
             voice_status.append("Text-to-Speech ✓")
 
@@ -484,8 +485,10 @@ class VERA:
                 if new_voice:
                     self.cli.display_status("Initializing voice modules (this might take a moment)...")
                     self._init_voice()
-                    self.cli.display_info("Voice is now ENABLED! Type 'v' to speak.")
+                    self.cli.display_info("Voice is ENABLED! Just say 'Vera, <command>' or type 'v'.")
                 else:
+                    if self.voice_in:
+                        self.voice_in.stop_background_listening()
                     if self.voice_out:
                         self.voice_out.cleanup()
                     self.voice_in = None
@@ -745,7 +748,8 @@ I can also generate new scripts for tasks I haven't seen before!
         sys.exit(0)
 
     def _cleanup(self) -> None:
-        """Clean up resources before exit."""
+        if self.voice_in:
+            self.voice_in.stop_background_listening()
         if self.voice_out:
             self.voice_out.cleanup()
         self.logger.info("V.E.R.A. shutdown complete.")

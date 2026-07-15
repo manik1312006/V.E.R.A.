@@ -33,7 +33,7 @@ voice:
 
   tts:
     engine: "edge_tts"        # "edge_tts" or "pyttsx3"
-    voice: "en-GB-RyanNeural"
+    voice: "en-GB-SoniaNeural"
     rate: "+0%"
     volume: "+0%"
 
