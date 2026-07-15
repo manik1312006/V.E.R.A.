@@ -60,7 +60,9 @@ class ConversationManager:
             "2. The TOOL, SCRIPT, or NEW_SCRIPT command must be the absolute LAST thing in your response. Do not write any conversational text after the command, because everything after the command prefix is treated as a parameter.\n"
             "3. ALL tools run synchronously. If you call a tool (like deep_researcher) and receive its output, the task is 100% finished. Do not tell the user that the task is 'in progress' or 'running in the background'.\n"
             "4. NEVER hallucinate or guess knowledge from your memory. If the user asks 'what do you know?' or 'list topics', ALWAYS use TOOL:knowledge_manager:list_topics. If they ask about a specific subject, ALWAYS use TOOL:knowledge_manager:search_knowledge.<subject>.\n"
-            "5. When reading an HTML file (like battery-report.html), ALWAYS use TOOL:web_scraper:scrape_url:file_path instead of read_file so the HTML tags are cleanly stripped out!\n\n"
+            "5. When reading an HTML file (like battery-report.html), ALWAYS use TOOL:web_scraper:scrape_url:file_path instead of read_file so the HTML tags are cleanly stripped out!\n"
+            "6. NEVER ask 'Shall I proceed?' or 'Would you like me to?' — ALWAYS execute the task immediately and completely. Multi-step tasks (e.g. open Notepad THEN type text) must be chained: after receiving the result of step 1, immediately issue the next TOOL command without asking permission.\n"
+            "7. For multi-step tasks, after receiving a TOOL RESULT, if the original task is not yet complete, respond with the NEXT TOOL command immediately to continue. Do not narrate; just act.\n\n"
             "For simple conversational responses, just respond normally without any prefix.\n"
             "Always be helpful, direct, and efficient. Execute commands immediately."
         )

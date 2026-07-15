@@ -591,12 +591,27 @@ class VERA:
                     if followup_response:
                         self.conversation.add_assistant_message(followup_response)
                         followup_parsed = self.reasoning.parse_response(followup_response)
-                        # Only show as conversational reply, do not chain another tool
-                        self.cli.display_response(
-                            followup_parsed.get("message", followup_response)
-                        )
-                        if self.voice_out and self.voice_out.is_available():
-                            self.voice_out.speak(followup_parsed.get("message", followup_response))
+                        action_type = followup_parsed.get("type")
+
+                        # If the follow-up is itself a tool call, execute it too
+                        if action_type == "tool":
+                            f_action = followup_parsed["action"]
+                            self.cli.display_action("tool", f"{f_action.get('tool_name')}.{f_action.get('tool_action')}")
+                            f_result = self.executor.execute(followup_parsed)
+                            self.cli.display_result(f_result.get("output", ""), f_result.get("success", False))
+                            if f_result.get("error"):
+                                self.cli.display_error(f_result["error"])
+                        elif action_type == "script":
+                            f_action = followup_parsed["action"]
+                            self.cli.display_action("script", f_action.get("script_name", ""))
+                            f_result = self.executor.execute(followup_parsed)
+                            self.cli.display_result(f_result.get("output", ""), f_result.get("success", False))
+                        else:
+                            # Pure conversational reply
+                            msg = followup_parsed.get("message") or followup_response
+                            self.cli.display_response(msg)
+                            if self.voice_out and self.voice_out.is_available():
+                                self.voice_out.speak(msg)
                 except Exception as e:
                     self.logger.error(f"Auto-continue LLM error: {e}")
             elif parsed.get("message"):
