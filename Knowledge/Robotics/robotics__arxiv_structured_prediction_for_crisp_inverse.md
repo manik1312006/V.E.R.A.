@@ -1,8 +1,0 @@
-# Structured Prediction for CRiSP Inverse Kinematics Learning with Misspecified Robot Models
-
-**Authors:** Gian Maria Marconi, Raffaello Camoriano, Lorenzo Rosasco, Carlo Ciliberto
-**Source:** http://arxiv.org/abs/2102.12942v3
-
-## Abstract
-
-With the recent advances in machine learning, problems that traditionally would require accurate modeling to be solved analytically can now be successfully approached with data-driven strategies. Among these, computing the inverse kinematics of a redundant robot arm poses a significant challenge due to the non-linear structure of the robot, the hard joint constraints and the non-invertible kinematics map. Moreover, most learning algorithms consider a completely data-driven approach, while often useful information on the structure of the robot is available and should be positively exploited. In this work, we present a simple, yet effective, approach for learning the inverse kinematics. We introduce a structured prediction algorithm that combines a data-driven strategy with the model provided by a forward kinematics function -- even when this function is misspecified -- to accurately solve the problem. The proposed approach ensures that predicted joint configurations are well within the robot's constraints. We also provide statistical guarantees on the generalization properties of our estimator as well as an empirical evaluation of its performance on trajectory reconstruction tasks.

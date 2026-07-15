@@ -1,8 +1,0 @@
-# Differentiable Physics-based System Identification for Robotic Manipulation of Elastoplastic Materials
-
-**Authors:** Xintong Yang, Ze Ji, Yu-Kun Lai
-**Source:** http://arxiv.org/abs/2411.00554v3
-
-## Abstract
-
-Robotic manipulation of volumetric elastoplastic deformable materials, from foods such as dough to construction materials like clay, is in its infancy, largely due to the difficulty of modelling and perception in a high-dimensional space. Simulating the dynamics of such materials is computationally expensive. It tends to suffer from inaccurately estimated physics parameters of the materials and the environment, impeding high-precision manipulation. Estimating such parameters from raw point clouds captured by optical cameras suffers further from heavy occlusions. To address this challenge, this work introduces a novel Differentiable Physics-based System Identification (DPSI) framework that enables a robot arm to infer the physics parameters of elastoplastic materials and the environment using simple manipulation motions and incomplete 3D point clouds, aligning the simulation with the real world. Extensive experiments show that with only a single real-world interaction, the estimated parameters, Young's modulus, Poisson's ratio, yield stress and friction coefficients, can accurately simulate visually and physically realistic deformation behaviours induced by unseen and long-horizon manipulation motions. Additionally, the DPSI framework inherently provides physically intuitive interpretations for the parameters in contrast to black-box approaches such as deep neural networks. The project is fully open-sourced via https://ianyangchina.github.io/SI4RP-data/.

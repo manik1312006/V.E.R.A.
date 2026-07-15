@@ -1,8 +1,0 @@
-# Nuclear mass table in deformed relativistic Hartree-Bogoliubov theory in continuum, II: Even-$Z$ nuclei
-
-**Authors:**  DRHBc Mass Table Collaboration, Peng Guo, Xiaojie Cao, Kangmin Chen, Zhihui Chen
-**Source:** http://arxiv.org/abs/2402.02935v4
-
-## Abstract
-
-The mass table in the deformed relativistic Hartree-Bogoliubov theory in continuum (DRHBc) with the PC-PK1 density functional has been established for even-$Z$ nuclei with $8\le Z\le120$, extended from the previous work for even-even nuclei [Zhang $\it{et.~al.}$ (DRHBc Mass Table Collaboration), At. Data Nucl. Data Tables 144, 101488 (2022)]. The calculated binding energies, two-nucleon and one-neutron separation energies, root-mean-square (rms) radii of neutron, proton, matter, and charge distributions, quadrupole deformations, and neutron and proton Fermi surfaces are tabulated and compared with available experimental data. A total of 4829 even-$Z$ nuclei are predicted to be bound, with an rms deviation of 1.477 MeV from the 1244 mass data. Good agreement with the available experimental odd-even mass differences, $α$ decay energies, and charge radii is also achieved. The description accuracy for nuclear masses and nucleon separation energies as well as the prediction for drip lines is compared with the results obtained from other relativistic and nonrelativistic density functional. The comparison shows that the DRHBc theory with PC-PK1 provides an excellent microscopic description for the masses of even-$Z$ nuclei. The systematics of the nucleon separation energies, odd-even mass differences, pairing energies, two-nucleon gaps, $α$ decay energies, rms radii, quadrupole deformations, potential energy curves, neutron density distributions, and neutron mean-field potentials are discussed.

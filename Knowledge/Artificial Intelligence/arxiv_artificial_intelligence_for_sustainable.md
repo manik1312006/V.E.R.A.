@@ -1,8 +1,0 @@
-# Artificial intelligence for sustainable wine industry: AI-driven management in viticulture, wine production and enotourism
-
-**Authors:** Marta Sidorkiewicz, Karolina Królikowska, Berenika Dyczek, Edyta Pijet-Migon, Anna Dubel
-**Source:** http://arxiv.org/abs/2507.21098v1
-
-## Abstract
-
-This study examines the role of Artificial Intelligence (AI) in enhancing sustainability and efficiency within the wine industry. It focuses on AI-driven intelligent management in viticulture, wine production, and enotourism. As the wine industry faces environmental and economic challenges, AI offers innovative solutions to optimize resource use, reduce environmental impact, and improve customer engagement. Understanding AI's potential in sustainable winemaking is crucial for fostering responsible and efficient industry practices. The research is based on a questionnaire survey conducted among Polish winemakers, combined with a comprehensive analysis of AI methods applicable to viticulture, production, and tourism. Key AI technologies, including predictive analytics, machine learning, and computer vision, are explored. The findings indicate that AI enhances vineyard monitoring, optimizes irrigation, and streamlines production processes, contributing to sustainable resource management. In enotourism, AI-powered chatbots, recommendation systems, and virtual tastings personalize consumer experiences. The study highlights AI's impact on economic, environmental, and social sustainability, supporting local wine enterprises and cultural heritage. Keywords: Artificial Intelligence, Sustainable Development, AI-Driven Management, Viticulture, Wine Production, Enotourism, Wine Enterprises, Local Communities

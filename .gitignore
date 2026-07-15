@@ -1,12 +1,15 @@
 # ─── Secrets & User Data ──────────────────────────────────────────────────────
-config.yaml              # Contains your API key — NEVER commit this!
+# Contains your API key — NEVER commit this!
+config.yaml
 .env
 
 # ─── Generated Knowledge Base ─────────────────────────────────────────────────
-Knowledge/               # Auto-generated research files (can be GBs in size)
+# Auto-generated research files (can be GBs in size)
+Knowledge/
 
 # ─── User-Generated Scripts ───────────────────────────────────────────────────
-scripts/custom/          # Scripts V.E.R.A. created for your specific machine
+# Scripts V.E.R.A. created for your specific machine
+scripts/custom/
 
 # ─── Python Cache ─────────────────────────────────────────────────────────────
 __pycache__/

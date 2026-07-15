@@ -1,8 +1,0 @@
-# Integrated data-driven biotechnology research environments
-
-**Authors:** Rosalia Moreddu
-**Source:** http://arxiv.org/abs/2503.21274v2
-
-## Abstract
-
-In the past few decades, the life sciences have experienced an unprecedented accumulation of data, ranging from genomic sequences and proteomic profiles to heavy-content imaging, clinical assays, and commercial biological products for research. Traditional static databases have been invaluable in providing standardized and structured information. However, they fall short when it comes to facilitating exploratory data interrogation, real-time query, multidimensional comparison and dynamic visualization. Integrated data-driven research environments aiming at supporting user-driven data queries and visualization offer promising new avenues for making the best use of the vast and heterogeneous data streams collected in biological research. This perspective article discusses the potential of interactive and integrated frameworks, highlighting the importance of implementing this model in biotechnology research, while going through the state-of-the-art in database design, technical choices behind modern data management systems, and emerging needs in multidisciplinary research. Special attention is given to data interrogation strategies, user interface design, and comparative analysis capabilities, along with challenges such as data standardization and scalability in data-heavy applications. Conceptual features for developing interactive data environments along diverse life science domains are then presented in the user case of cell line selection for in vitro research to bridge the gap between research data generation, actionable biological insight, experimental design, and clinical relevance.

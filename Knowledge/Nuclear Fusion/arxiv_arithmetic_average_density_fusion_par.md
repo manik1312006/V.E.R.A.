@@ -1,8 +1,0 @@
-# Arithmetic Average Density Fusion -- Part I: Some Statistic and Information-theoretic Results
-
-**Authors:** Tiancheng Li, Yan Song, Enbin Song, Hongqi Fan
-**Source:** http://arxiv.org/abs/2110.01440v4
-
-## Abstract
-
-Finite mixture such as the Gaussian mixture is a flexible and powerful probabilistic modeling tool for representing the multimodal distribution widely involved in many estimation and learning problems. The core of it is representing the target distribution by the arithmetic average (AA) of a finite number of sub-distributions which constitute a mixture. While the mixture has been widely used for single sensor filter design, it is only recent that the AA fusion demonstrates compelling performance for multi-sensor filter design. In this paper, some statistic and information-theoretic results are given on the covariance consistency, mean square error, mode-preservation capacity, and the information divergence of the AA fusion approach. In particular, based on the concept of conservative fusion, the relationship of the AA fusion with the existing conservative fusion approaches such as covariance union and covariance intersection is exposed. A suboptimal weighting approach has been proposed, which jointly with the best mixture-fit property of the AA fusion leads to a max-min optimization problem. Linear Gaussian models are considered for algorithm illustration and simulation comparison, resulting in the first-ever AA fusion-based multi-sensor Kalman filter.

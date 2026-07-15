@@ -1,8 +1,0 @@
-# Path To Gain Functional Transparency In Artificial Intelligence With Meaningful Explainability
-
-**Authors:** Md. Tanzib Hosain, Mehedi Hasan Anik, Sadman Rafi, Rana Tabassum, Khaleque Insia
-**Source:** http://arxiv.org/abs/2310.08849v2
-
-## Abstract
-
-Artificial Intelligence (AI) is rapidly integrating into various aspects of our daily lives, influencing decision-making processes in areas such as targeted advertising and matchmaking algorithms. As AI systems become increasingly sophisticated, ensuring their transparency and explainability becomes crucial. Functional transparency is a fundamental aspect of algorithmic decision-making systems, allowing stakeholders to comprehend the inner workings of these systems and enabling them to evaluate their fairness and accuracy. However, achieving functional transparency poses significant challenges that need to be addressed. In this paper, we propose a design for user-centered compliant-by-design transparency in transparent systems. We emphasize that the development of transparent and explainable AI systems is a complex and multidisciplinary endeavor, necessitating collaboration among researchers from diverse fields such as computer science, artificial intelligence, ethics, law, and social science. By providing a comprehensive understanding of the challenges associated with transparency in AI systems and proposing a user-centered design framework, we aim to facilitate the development of AI systems that are accountable, trustworthy, and aligned with societal values.

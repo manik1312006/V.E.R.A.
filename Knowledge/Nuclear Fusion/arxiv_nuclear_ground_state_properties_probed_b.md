@@ -1,8 +1,0 @@
-# Nuclear ground-state properties probed by the relativistic Hartree-Bogoliubov approach
-
-**Authors:** Zi Xin Liu, Yi Hua Lam, Ning Lu, Peter Ring
-**Source:** http://arxiv.org/abs/2309.06371v2
-
-## Abstract
-
-Using the relativistic Hartree-Bogoliubov framework with separable pairing force coupled with the latest covariant density functionals, i.e., PC-L3R, PC-X, DD-PCX, and DD-MEX, we systematically explore the ground-state properties of all isotopes of Z=8-110. These properties consist of the binding energies, one- and two-neutron separation energies ($S_\mathrm{n}$ and $S_\mathrm{2n}$), root-mean-square radius of matter, of neutron, of proton, and of charge distributions, Fermi surfaces, ground-state spins and parities. We then predict the edges of nuclear landscape and bound nuclei for the isotopic chains from oxygen (Z=8) to darmstadtium (Z=110) based on these latest covariant density functionals. The number of bound nuclei predicted by PC-L3R, PC-X, DD-PCX, and DD-MEX, are 9004, 9162, 6799, and 7112, respectively. The root-mean-square deviations of $S_\mathrm{n}$ ($S_\mathrm{2n}$) yielded from PC-L3R, PCX, DD-PCX, and DD-MEX are 0.962 (1.300) MeV, 0.920 (1.483) MeV, 0.993 (1.753) MeV, and 1.010 (1.544) MeV, respectively. The root-mean-square deviations of charge radius distributions of comparing the available experimental values with the theoretical counterparts resulted from PC-L3R, PC-X, DD-PCX, and DD-MEX are 0.035 fm, 0.037 fm, 0.035 fm, and 0.034 fm, respectively. We notice pronounced differences between the empirical and theoretical root-mean-square radii of neutron at nuclei near the neutron drip line of the Mg, Ca, and Kr isotopic chains, suggesting the possible existence of the halo or giant halo phenomena.

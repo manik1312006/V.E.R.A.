@@ -1,8 +1,0 @@
-# Artificial Intelligence for Literature Reviews: Opportunities and Challenges
-
-**Authors:** Francisco Bolanos, Angelo Salatino, Francesco Osborne, Enrico Motta
-**Source:** http://arxiv.org/abs/2402.08565v2
-
-## Abstract
-
-This manuscript presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs). A SLR is a rigorous and organised methodology that assesses and integrates previous research on a given topic. Numerous tools have been developed to assist and partially automate the SLR process. The increasing role of AI in this field shows great potential in providing more effective support for researchers, moving towards the semi-automatic creation of literature reviews. Our study focuses on how AI techniques are applied in the semi-automation of SLRs, specifically in the screening and extraction phases. We examine 21 leading SLR tools using a framework that combines 23 traditional features with 11 AI features. We also analyse 11 recent tools that leverage large language models for searching the literature and assisting academic writing. Finally, the paper discusses current trends in the field, outlines key research challenges, and suggests directions for future research.

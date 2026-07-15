@@ -1,8 +1,0 @@
-# Quantum Biotechnology
-
-**Authors:** Nicolas P. Mauranyapin, Alex Terrason, Warwick P. Bowen
-**Source:** http://arxiv.org/abs/2111.02021v1
-
-## Abstract
-
-Quantum technologies leverage the laws of quantum physics to achieve performance advantages in applications ranging from computing to communications and sensing. They have been proposed to have a range of applications in biological science. This includes better microscopes and biosensors, improved simulations of molecular processes, and new capabilities to control the behaviour of biomolecules and chemical reactions. Quantum effects are also predicted, with much debate, to have functional benefits in biology, for instance, allowing more efficient energy transport and improving the rate of enzyme catalysis. Conversely, the robustness of biological systems to disorder from their environment has led to proposals to use them as components within quantum technologies, for instance as light sources for quantum communication systems. Together, this breadth of prospective applications at the interface of quantum and biological science suggests that quantum physics will play an important role in stimulating future biotechnological advances. This review aims to provide an overview of this emerging field of quantum biotechnology, introducing current capabilities, future prospects, and potential areas of impact. The review is written to be accessible to the non-expert and focuses on the four key areas of quantum-enabled sensing, quantum-enabled imaging, quantum biomolecular control, and quantum effects in biology.

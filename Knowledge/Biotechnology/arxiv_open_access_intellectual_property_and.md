@@ -1,8 +1,0 @@
-# Open Access, Intellectual Property, and How Biotechnology Becomes a New Software Science
-
-**Authors:** Fionn Murtagh
-**Source:** http://arxiv.org/abs/0912.1262v1
-
-## Abstract
-
-Innovation is slowing greatly in the pharmaceutical sector. It is considered here how part of the problem is due to overly limiting intellectual property relations in the sector. On the other hand, computing and software in particular are characterized by great richness of intellectual property frameworks. Could the intellectual property ecosystem of computing come to the aid of the biosciences and life sciences? We look at how the answer might well be yes, by looking at (i) the extent to which a drug mirrors a software program, and (ii) what is to be gleaned from trends in research publishing in the life and biosciences.

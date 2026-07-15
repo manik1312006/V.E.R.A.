@@ -1,8 +1,0 @@
-# Predicting Responses to a Robot's Future Motion using Generative Recurrent Neural Networks
-
-**Authors:** Stuart Eiffert, Salah Sukkarieh
-**Source:** http://arxiv.org/abs/1909.13486v2
-
-## Abstract
-
-Robotic navigation through crowds or herds requires the ability to both predict the future motion of nearby individuals and understand how these predictions might change in response to a robot's future action. State of the art trajectory prediction models using Recurrent Neural Networks (RNNs) do not currently account for a planned future action of a robot, and so cannot predict how an individual will move in response to a robot's planned path. We propose an approach that adapts RNNs to use a robot's next planned action as an input alongside the current position of nearby individuals. This allows the model to learn the response of individuals with regards to a robot's motion from real world observations. By linking a robot's actions to the response of those around it in training, we show that we are able to not only improve prediction accuracy in close range interactions, but also to predict the likely response of surrounding individuals to simulated actions. This allows the use of the model to simulate state transitions, without requiring any assumptions on agent interaction. We apply this model to varied datasets, including crowds of pedestrians interacting with vehicles and bicycles, and livestock interacting with a robotic vehicle.

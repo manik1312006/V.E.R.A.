@@ -1,8 +1,0 @@
-# Secure and secret cooperation in robotic swarms
-
-**Authors:** Eduardo Castelló Ferrer, Thomas Hardjono, Alex 'Sandy' Pentland, Marco Dorigo
-**Source:** http://arxiv.org/abs/1904.09266v3
-
-## Abstract
-
-The importance of swarm robotics systems in both academic research and real-world applications is steadily increasing. However, to reach widespread adoption, new models that ensure the secure cooperation of large groups of robots need to be developed. This work introduces a novel method to encapsulate cooperative robotic missions in an authenticated data structure known as Merkle tree. With this method, operators can provide the "blueprint" of the swarm's mission without disclosing its raw data. In other words, data verification can be separated from data itself. We propose a system where robots in a swarm, to cooperate towards mission completion, have to "prove" their integrity to their peers by exchanging cryptographic proofs. We show the implications of this approach for two different swarm robotics missions: foraging and maze formation. In both missions, swarm robots were able to cooperate and carry out sequential operations without having explicit knowledge about the mission's high-level objectives. The results presented in this work demonstrate the feasibility of using Merkle trees as a cooperation mechanism for swarm robotics systems in both simulation and real-robot experiments, which has implications for future decentralized robotics applications where security plays a crucial role such as environmental monitoring, infrastructure surveillance, and disaster management.

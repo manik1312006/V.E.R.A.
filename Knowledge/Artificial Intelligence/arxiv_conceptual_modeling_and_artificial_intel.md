@@ -1,8 +1,0 @@
-# Conceptual Modeling and Artificial Intelligence: Mutual Benefits from Complementary Worlds
-
-**Authors:** Dominik Bork
-**Source:** http://arxiv.org/abs/2110.08637v1
-
-## Abstract
-
-Conceptual modeling (CM) applies abstraction to reduce the complexity of a system under study (e.g., an excerpt of reality). As a result of the conceptual modeling process a human interpretable, formalized representation (i.e., a conceptual model) is derived which enables understanding and communication among humans, and processing by machines. Artificial Intelligence (AI) algorithms are also applied to complex realities (regularly represented by vast amounts of data) to identify patterns or to classify entities in the data. Aside from the commonalities of both approaches, a significant difference can be observed by looking at the results. While conceptual models are comprehensible, reproducible, and explicit knowledge representations, AI techniques are capable of efficiently deriving an output from a given input while acting as a black box. AI solutions often lack comprehensiveness and reproducibility. Even the developers of AI systems can't explain why a certain output is derived. In the Conceptual Modeling meets Artificial Intelligence (CMAI) workshop, we are interested in tackling the intersection of the two, thus far, mostly isolated approached disciplines of CM and AI. The workshop embraces the assumption, that manifold mutual benefits can be realized by i) investigating what Conceptual Modeling (CM) can contribute to AI, and ii) the other way around, what Artificial Intelligence (AI) can contribute to CM.

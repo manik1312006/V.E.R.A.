@@ -1,8 +1,0 @@
-# Applications of Novel Techniques to Health Foods, Medical and Agricultural Biotechnology
-
-**Authors:** I. C. Baianu, P. R. Lozano, V. I. Prisecaru, H. C. Lin
-**Source:** http://arxiv.org/abs/q-bio/0406047v1
-
-## Abstract
-
-Selected applications of novel techniques in Agricultural Biotechnology, Health Food formulations and Medical Biotechnology are being reviewed with the aim of unraveling future developments and policy changes that are likely to open new niches for Biotechnology and prevent the shrinking or closing the existing ones. Amongst the selected novel techniques with applications to both Agricultural and Medical Biotechnology are: immobilized bacterial cells and enzymes, microencapsulation and liposome production, genetic manipulation of microorganisms, development of novel vaccines from plants, epigenomics of mammalian cells and organisms, as well as biocomputational tools for molecular modeling related to disease and Bioinformatics. Both fundamental and applied aspects of the emerging new techniques are being discussed in relation to their anticipated impact on future biotechnology applications together with policy changes that are needed for continued success in both Agricultural and Medical Biotechnology. Several novel techniques are illustrated in an attempt to convey the most representative and powerful tools that are currently being developed for both immediate and long term applications in Agriculture, Health Food formulation and production, pharmaceuticals and Medicine. The research aspects are naturally emphasized in our review as they are key to further developments in Medical and Agricultural Biotechnology.

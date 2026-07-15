@@ -1,8 +1,0 @@
-# Molecular and Serologic Diagnostic Technologies for SARS-CoV-2
-
-**Authors:** Halie M. Rando, Christian Brueffer, Ronan Lordan, Anna Ada Dattoli, David Manheim
-**Source:** http://arxiv.org/abs/2204.12598v2
-
-## Abstract
-
-The COVID-19 pandemic has presented many challenges that have spurred biotechnological research to address specific problems. Diagnostics is one area where biotechnology has been critical. Diagnostic tests play a vital role in managing a viral threat by facilitating the detection of infected and/or recovered individuals. From the perspective of what information is provided, these tests fall into two major categories, molecular and serological. Molecular diagnostic techniques assay whether a virus is present in a biological sample, thus making it possible to identify individuals who are currently infected. Additionally, when the immune system is exposed to a virus, it responds by producing antibodies specific to the virus. Serological tests make it possible to identify individuals who have mounted an immune response to a virus of interest and therefore facilitate the identification of individuals who have previously encountered the virus. These two categories of tests provide different perspectives valuable to understanding the spread of SARS-CoV-2. Within these categories, different biotechnological approaches offer specific advantages and disadvantages. Here we review the categories of tests developed for the detection of the SARS-CoV-2 virus or antibodies against SARS-CoV-2 and discuss the role of diagnostics in the COVID-19 pandemic.

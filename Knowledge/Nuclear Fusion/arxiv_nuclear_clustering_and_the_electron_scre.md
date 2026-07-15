@@ -1,8 +1,0 @@
-# Nuclear clustering and the electron screening puzzle
-
-**Authors:** C. A. Bertulani, C. Spitaleri
-**Source:** http://arxiv.org/abs/1710.03388v1
-
-## Abstract
-
-Electron screening changes appreciably the magnitude of astrophysical nuclear reactions within stars. This effect is also observed in laboratory experiments on Earth, where atomic electrons are present in the nuclear targets. Theoretical models were developed over the past 30 years and experimental measurements have been carried out to study electron screening in thermonuclear reactions. None of the theoretical models were able to explain the high values of the experimentally determined screening potentials. We explore the possibility that the "electron screening puzzle" is due to nuclear clusterization and polarization effects in the fusion reactions. We will discuss the supporting arguments for this scenario.

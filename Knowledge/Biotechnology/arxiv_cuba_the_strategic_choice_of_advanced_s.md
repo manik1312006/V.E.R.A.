@@ -1,8 +1,0 @@
-# Cuba: the strategic choice of advanced scientific development, 1959-2014
-
-**Authors:** Angelo Baracca, Rosella Franconi
-**Source:** http://arxiv.org/abs/1609.00311v1
-
-## Abstract
-
-Cuba is continuing attracting the attention of the international scientific community for some important and unexpected achievements in applied science such as health biotechnology. They represent outcomes of the 1959 decision of Cuba to develop an advanced scientific system in order to address the most urgent problems for the development of the country and to overcome the condition of subalternity. This ambitious objective was tackled in a very original way, making a broad and wide-ranging recourse to every effective support and collaboration, with Soviet but also Western scientists and institutions, in addition to a peculiar Cuban inventiveness. Indeed, immediately after the revolution, Cuba developed an advanced and articulated scientific system, and achieved a level of excellence in leading scientific fields, like biotechnology, quite independently from the Soviet Union, which was behind in this field. Even the collapse of the Soviet Union in the early 1990s, that could have put the achievements of the Revolution at risk, posing again the threat of subalternity, under an intentionally worsened American embargo, did not change this trend: once more Cuba addressed this challenge reconfirming the strategic choice of supporting its most advanced and profitable scientific sectors, especially the capital-intensive and typically American field of health biotechnologies. This strategy proved to be once again a well-chosen course of action.

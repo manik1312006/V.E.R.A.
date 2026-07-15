@@ -1,8 +1,0 @@
-# Beyond-mean-field approaches for nuclear neutrinoless double beta decay in the standard mechanism
-
-**Authors:** J. M. Yao, J. Meng, Y. F. Niu, P. Ring
-**Source:** http://arxiv.org/abs/2111.15543v3
-
-## Abstract
-
-Nuclear weak decays provide important probes to fundamental symmetries in nature. A precise description of these processes in atomic nuclei requires comprehensive knowledge on both the strong and weak interactions in the nuclear medium and on the dynamics of quantum many-body systems. In particular, an observation of the hypothetical double beta decay without emission of neutrinos ($0νββ$) would unambiguously demonstrate the Majorana nature of neutrinos and the existence of the lepton-number-violation process. It would also provide unique information on the ordering and absolute scale of neutrino masses. The next-generation tonne-scale experiments with sensitivity up to $10^{28}$ years after a few years of running will probably provide a definite answer to these fundamental questions based on our current knowledge on the nuclear matrix element (NME), the precise determination of which is a challenge to nuclear theory. Beyond-mean-field approaches have been frequently adapted for the study of nuclear structure and decay throughout the nuclear chart for several decades. In this review, we summarize the status of beyond-mean-field calculations of the NMEs of $0νββ$ decay assuming the standard mechanism of an exchange of light Majorana neutrinos. The challenges and prospects in the extension and application of beyond-mean-field approaches for $0νββ$ decay are discussed.
