@@ -156,10 +156,10 @@ class VoiceInput:
                 while not self._stop_listening:
                     try:
                         data = audio_queue.get(timeout=0.1)
-                        # VAD: Check if max amplitude exceeds a threshold (e.g. 0.05)
+                        # VAD: Extremely sensitive threshold for quiet laptop mics
                         volume = np.max(np.abs(data))
                         
-                        if volume > 0.01:
+                        if volume > 0.002:
                             if not is_speaking:
                                 logger.debug(f"Speech detected (vol: {volume:.4f})...")
                             is_speaking = True
@@ -183,12 +183,23 @@ class VoiceInput:
                                         if not text:
                                             continue
                                             
-                                        # Check for wake word
-                                        clean_text = re.sub(r'^[^a-zA-Z0-9]+', '', text).lower()
-                                        if clean_text.startswith("vera"):
-                                            # Strip wake word and punctuation
-                                            command = text[len("vera"):].strip(' ,.!?\n')
-                                            if command:
+                                        # Check for wake word (allow common misinterpretations or 'hey vera')
+                                        clean_text = text.lower()
+                                        wake_words = ["vera", "verra", "sarah", "friday", "jarvis", "hey vera", "ok vera"]
+                                        
+                                        detected_wake = None
+                                        for w in wake_words:
+                                            if w in clean_text[:20]: # Must be near the start
+                                                detected_wake = w
+                                                break
+                                                
+                                        if detected_wake:
+                                            # Strip everything up to the wake word, and the wake word itself
+                                            idx = clean_text.find(detected_wake) + len(detected_wake)
+                                            command = text[idx:].strip(' ,.!?\n-')
+                                            
+                                            # Only trigger if they actually said a command after the wake word
+                                            if command and len(command) > 2:
                                                 logger.info(f"Wake word detected! Command: {command}")
                                                 callback(command)
                                     except Exception as e:
