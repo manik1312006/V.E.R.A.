@@ -42,7 +42,7 @@ V.E.R.A. is a local AI assistant that runs in your terminal and has **full contr
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/V.E.R.A.git
+git clone https://github.com/manik1312006/V.E.R.A.git
 cd V.E.R.A
 
 # 2. Run the installer
