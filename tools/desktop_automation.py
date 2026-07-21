@@ -60,11 +60,12 @@ class DesktopAutomation:
                 "PyAutoGUI not installed. Run: pip install pyautogui"
             )
 
-    def click_at(self, coords: str) -> str:
+    def click_at(self, coords: str = None, x: int = None, y: int = None) -> str:
         try:
             pyautogui = self._get_pyautogui()
-            x, y = coords.split(",")
-            x, y = int(x.strip()), int(y.strip())
+            if coords is not None:
+                cx, cy = coords.split(",")
+                x, y = int(cx.strip()), int(cy.strip())
             pyautogui.click(x, y)
             return f"Clicked at ({x}, {y})"
         except Exception as e:
@@ -73,8 +74,8 @@ class DesktopAutomation:
     def type_text(self, text: str) -> str:
         try:
             pyautogui = self._get_pyautogui()
-            # Small delay to ensure focus
-            time.sleep(0.1)
+            # Delay to ensure UI elements (like Save dialogs) have time to focus
+            time.sleep(0.5)
             pyautogui.write(text, interval=0.02)
             return f"Typed: {text[:100]}{'...' if len(text) > 100 else ''}"
         except Exception as e:
@@ -83,7 +84,12 @@ class DesktopAutomation:
     def press_key(self, key: str) -> str:
         try:
             pyautogui = self._get_pyautogui()
-            pyautogui.press(key.strip().lower())
+            k = key.strip().lower()
+            if "+" in k:
+                keys = [p.strip() for p in k.split("+")]
+                pyautogui.hotkey(*keys)
+            else:
+                pyautogui.press(k)
             return f"Pressed key: {key}"
         except Exception as e:
             return f"Failed to press key: {e}"

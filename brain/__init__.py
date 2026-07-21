@@ -1,15 +1,11 @@
-"""V.E.R.A. Brain - LLM intelligence layer."""
+"""V.E.R.A. Brain - LLM intelligence layer powered by Gemini 2.5 Flash Live."""
 
-from .llm_provider import LLMProvider
-from .mistral_api import MistralAPIProvider
-from .ollama_local import OllamaProvider
+from .gemini_live import GeminiLiveProvider
 from .reasoning import ReasoningEngine
 from .conversation import ConversationManager
 
 __all__ = [
-    "LLMProvider",
-    "MistralAPIProvider",
-    "OllamaProvider",
+    "GeminiLiveProvider",
     "ReasoningEngine",
     "ConversationManager",
 ]

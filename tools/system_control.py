@@ -46,16 +46,49 @@ class SystemControl:
         }
 
     def open_app(self, app_name: str) -> str:
+        import os
         system = platform.system().lower()
+        clean_name = app_name.strip().lower()
+
+        # Windows app mapping for common names
+        APP_MAP = {
+            "notepad": "notepad.exe",
+            "chrome": "chrome.exe",
+            "google chrome": "chrome.exe",
+            "calculator": "calc.exe",
+            "calc": "calc.exe",
+            "cmd": "cmd.exe",
+            "command prompt": "cmd.exe",
+            "terminal": "wt.exe",
+            "powershell": "powershell.exe",
+            "explorer": "explorer.exe",
+            "file explorer": "explorer.exe",
+            "paint": "mspaint.exe",
+            "word": "winword.exe",
+            "excel": "excel.exe",
+            "browser": "chrome.exe",
+        }
+        target = APP_MAP.get(clean_name, app_name)
+
         try:
             if system == "windows":
-                subprocess.Popen(["start", "", app_name], shell=True)
+                try:
+                    os.startfile(target)
+                except Exception:
+                    subprocess.Popen(
+                        f'start "" "{target}"',
+                        shell=True,
+                        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP
+                    )
             elif system == "darwin":
-                subprocess.Popen(["open", "-a", app_name])
+                subprocess.Popen(["open", "-a", target])
             else:
-                subprocess.Popen(["xdg-open", app_name] if "." in app_name else [app_name],
-                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            return f"Opened application: {app_name}"
+                subprocess.Popen(
+                    [target],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL
+                )
+            return f"Successfully opened: {app_name}"
         except Exception as e:
             return f"Failed to open '{app_name}': {e}"
 
@@ -111,7 +144,7 @@ class SystemControl:
         except Exception as e:
             return f"Failed to kill '{target}': {e}"
 
-    def shutdown(self, _: str) -> str:
+    def shutdown(self, _: str = "") -> str:
         system = platform.system().lower()
         try:
             if system == "windows":
@@ -124,7 +157,7 @@ class SystemControl:
         except Exception as e:
             return f"Failed to shutdown: {e}"
 
-    def restart(self, _: str) -> str:
+    def restart(self, _: str = "") -> str:
         system = platform.system().lower()
         try:
             if system == "windows":

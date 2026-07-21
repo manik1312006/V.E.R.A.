@@ -7,6 +7,7 @@ from .file_manager import FileManager
 from .media_control import MediaControl
 from .network_tools import NetworkTools
 from .app_controller import AppController
+from .screen_vision import ScreenVision
 
 __all__ = [
     "SystemControl",
@@ -16,4 +17,5 @@ __all__ = [
     "MediaControl",
     "NetworkTools",
     "AppController",
+    "ScreenVision",
 ]
